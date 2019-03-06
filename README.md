@@ -1,5 +1,16 @@
 # git команды
 
+Настройка config
+
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\$
+  type = cat-file -t
+  dump = cat-file -p
+
 `add` — добавить файл или папку в репозиторий git;
 
 `am`
