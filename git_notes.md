@@ -5,7 +5,7 @@
 История - git log
 
 Получение старых версий - git hist 
-предваритеотно настроив -> git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+предварительно настроив -> git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
 
 Создание тегов версий - git tag имя_тега
 
