@@ -5,6 +5,8 @@
 
 История - git log
 
+История подробно - git log --all --graph --decorate
+
 Получение старых версий - git hist 
 предварительно настроив -> git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
 
@@ -20,7 +22,7 @@
   - git reset HEAD <имя_файла_с_изменениями>
   - git checkout <имя_файла_с_изменениями>
 
-Отмена последнего коммита - git revert HEAD
+**Отмена последнего коммита** - git revert HEAD
 
 Удаление коммитов из ветки:
   - отметить ненужный коммит тегом = git tag <имя_тега>
