@@ -1,3 +1,7 @@
+
+
+Изменить origin адрес репозитория - git remote set-url origin
+
 Для Mac os.
 На основе https://githowto.com/ru/
 
