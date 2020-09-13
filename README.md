@@ -1,3 +1,8 @@
+Клонировать репозиторий со всеми ветками
+- git clone --bare repo_url .git
+- git config core.bare false
+- git checkout
+
 Изменить origin адрес репозитория 
 - git remote set-url origin <ссылка на репо>
 
