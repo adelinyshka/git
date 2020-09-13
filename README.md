@@ -1,15 +1,19 @@
 Клонировать репозиторий со всеми ветками
 
 // First, clone a remote Git repository and cd into it:
+
 $ git clone git://example.com/myproject
 $ cd myproject
 
 // Next, look at the local branches in your repository
+
 $ git branch
 * master
 
 // But there are other branches hiding in your repository! You can see these using the -a flag:
+
 $ git branch -a
+
 * master
   remotes/origin/HEAD
   remotes/origin/master
@@ -17,9 +21,11 @@ $ git branch -a
   remotes/origin/experimental
 
 //If you just want to take a quick peek at an upstream branch, you can check it out directly:
+
 $ git checkout origin/experimental
 
 //But if you want to work on that branch, you'll need to create a local tracking branch which is done automatically by:
+
 $ git checkout experimental
 
 // and you will see
