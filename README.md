@@ -1,4 +1,4 @@
-Клонировать репозиторий со всеми ветками
+**Клонировать репозиторий со всеми ветками**
 
 1. First, clone a remote Git repository and cd into it:
 
